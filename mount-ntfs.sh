@@ -13,4 +13,4 @@ fi
 MOUNT_DIR="/Volumes/$2"
 DISK_ID="$1"
 mkdir $MOUNT_DIR
-/usr/local/bin/ntfs-3g /dev/$DISK_ID $MOUNT_DIR -olocal -oallow_other
+/usr/local/bin/ntfs-3g /dev/$DISK_ID $MOUNT_DIR -olocal -oallow_other -oauto_xattr
