@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ "$#" -ne 2 ]]; then
-	echo 'pass the disk id and mound dir as arguments. Ex: ./mount-ntfs.sh disk2s2 NTFS1'
+	echo 'pass the disk id and mount dir as arguments. Ex: ./mount-ntfs.sh disk2s2 NTFS1'
 	exit 1
 fi
 
